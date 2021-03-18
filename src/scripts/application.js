@@ -1,14 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-const image = require("../images/network.png");
+import image from "../images/network.png";
+import "../styles/application.css";
 
 const App = () => {
   return (
-    <div class="container mx-auto p-3 min-h-screen flex items-center">
-      <div class="w-full lg:w-1/3 border p-10 text-center mx-auto">
-        <h1 class="text-4xl mb-5 text-gray-700">Static Site Template</h1>
+    <div className="container mx-auto p-3 min-h-screen flex items-center">
+      <div className="w-full lg:w-1/3 border p-10 text-center mx-auto">
+        <h1 className="text-4xl mb-5 text-gray-700">Static Site Template</h1>
 
-        <p class="text-lg mb-12 text-gray-500">
+        <p className="text-lg mb-12 text-gray-500">
           Welcome to Static Site Template.
         </p>
 
